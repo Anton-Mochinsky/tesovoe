@@ -1,0 +1,17 @@
+{% load menu_tags %}
+
+<html>
+<head>
+    <title>Меню</title>
+    <style>
+        .active { font-weight: bold; }
+        ul { list-style-type: none; }
+    </style>
+</head>
+<body>
+    <h1>Моё Меню</h1>
+    <ul>
+        {% draw_menu 'main_menu' %}
+    </ul>
+</body>
+</html>
